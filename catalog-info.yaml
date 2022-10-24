@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 
+  description: "bs-test2"
+  annotations:
+    github.com/project-slug: egarmel/bs-test2
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "egarmel"
